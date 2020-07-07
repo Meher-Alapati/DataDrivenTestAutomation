@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-07T18:46:26Z" name="POMTestSuite" finished-at="2020-07-07T18:49:05Z" duration-ms="159445">
+    <groups>
+    </groups>
+    <test started-at="2020-07-07T18:46:26Z" name="POMTEST" finished-at="2020-07-07T18:49:05Z" duration-ms="159445">
+      <class name="com.crm.qa.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.tests.LoginPageTest@72e5a8e]" started-at="2020-07-08T00:16:26Z" name="setup" finished-at="2020-07-08T00:16:55Z" duration-ms="29863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest()[pri:0, instance:com.crm.qa.tests.LoginPageTest@72e5a8e]" started-at="2020-07-08T00:16:55Z" name="LoginTest" finished-at="2020-07-08T00:16:56Z" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.tests.LoginPageTest@72e5a8e]" started-at="2020-07-08T00:16:56Z" name="teardown" finished-at="2020-07-08T00:16:57Z" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.qa.tests.LoginPageTest -->
+      <class name="com.crm.qa.tests.ContactPageTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.tests.ContactPageTests@53aac487]" started-at="2020-07-08T00:18:33Z" name="setup" finished-at="2020-07-08T00:19:04Z" duration-ms="31349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyContacLabel()[pri:0, instance:com.crm.qa.tests.ContactPageTests@53aac487]" started-at="2020-07-08T00:19:04Z" name="verifyContacLabel" finished-at="2020-07-08T00:19:04Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContacLabel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.tests.ContactPageTests@53aac487]" started-at="2020-07-08T00:19:04Z" name="teardown" finished-at="2020-07-08T00:19:05Z" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.qa.tests.ContactPageTests -->
+      <class name="com.crm.qa.tests.HomePageTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.tests.HomePageTests@54e1c68b]" started-at="2020-07-08T00:16:57Z" name="setup" finished-at="2020-07-08T00:17:26Z" duration-ms="29915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GotoContactspage()[pri:0, instance:com.crm.qa.tests.HomePageTests@54e1c68b]" started-at="2020-07-08T00:17:26Z" name="GotoContactspage" finished-at="2020-07-08T00:17:28Z" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GotoContactspage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.tests.HomePageTests@54e1c68b]" started-at="2020-07-08T00:17:28Z" name="teardown" finished-at="2020-07-08T00:17:29Z" duration-ms="935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.tests.HomePageTests@54e1c68b]" started-at="2020-07-08T00:17:29Z" name="setup" finished-at="2020-07-08T00:17:59Z" duration-ms="29896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAccountType()[pri:0, instance:com.crm.qa.tests.HomePageTests@54e1c68b]" started-at="2020-07-08T00:17:59Z" name="verifyAccountType" finished-at="2020-07-08T00:18:00Z" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountType -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.tests.HomePageTests@54e1c68b]" started-at="2020-07-08T00:18:00Z" name="teardown" finished-at="2020-07-08T00:18:01Z" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.tests.HomePageTests@54e1c68b]" started-at="2020-07-08T00:18:01Z" name="setup" finished-at="2020-07-08T00:18:31Z" duration-ms="29896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:com.crm.qa.tests.HomePageTests@54e1c68b]" started-at="2020-07-08T00:18:31Z" name="verifyHomePageTitle" finished-at="2020-07-08T00:18:32Z" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.tests.HomePageTests@54e1c68b]" started-at="2020-07-08T00:18:32Z" name="teardown" finished-at="2020-07-08T00:18:33Z" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.qa.tests.HomePageTests -->
+    </test> <!-- POMTEST -->
+  </suite> <!-- POMTestSuite -->
+</testng-results>
