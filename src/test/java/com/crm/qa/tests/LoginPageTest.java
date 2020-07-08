@@ -29,10 +29,8 @@ public class LoginPageTest extends TestBase{
 	@Test
 	public void LoginTest()
 	{		
-		HomePage = Loginpage.Login(prop.getProperty("username"),prop.getProperty("password"));
-		//HomePage = Loginpage.Login("chakri.rit@gmail.com","password");
+		HomePage = Loginpage.Login(prop.getProperty("username"),prop.getProperty("password"));		
 	}
-	
 	
 	@AfterMethod
 	public void teardown()
